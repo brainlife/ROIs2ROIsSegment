@@ -13,4 +13,5 @@ echo "generating tracts/"
 
 echo "generating surfaces/"
 atlas=$(jq -r .atlas config.json)
+if [ -f $atlas ]; then atlas=$(dirname $atlas); fi # if using parc datatype (not rois datatype) atlas should be the parent directory
 time singularity exec -e docker://brainlife/pythonvtk:1.1 ./freesurfer2vtks.py $atlas/parc.nii.gz
