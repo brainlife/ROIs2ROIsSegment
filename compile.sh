@@ -21,7 +21,7 @@ addpath(genpath('/N/u/brlife/git/jsonlab'))
 addpath(genpath('/N/u/brlife/git/wma_tools'))
 addpath(genpath('/N/soft/rhel7/mrtrix/3.0/mrtrix3/matlab'))
 
-mcc -m -R -nodisplay -d compiled bsc_SegROIfromPairStringList_v2_BL
+mcc -m -R -nodisplay -d compiled bsc_SegROIfromPairStringList_v3_BL
 exit
 END
 matlab -nodisplay -nosplash -r build && rm build.m

@@ -1,8 +1,8 @@
 /N/u/brlife/git/vistasoft
-commit cf75f1a8c037382d6a157f0a7b683a3fd424ee4c
-Merge: 8bea0b7 7e4a5c5
-Author: rokers <rokers@gmail.com>
-Date:   Fri Jul 13 17:13:01 2018 -0400
+commit b3823616ae64600a01f0223b6dba5279cf6cf3a7
+Merge: 8ce10bf 291190f
+Author: francopestilli <frakkopesto@gmail.com>
+Date:   Sun Mar 1 15:27:01 2020 -0500
 
     Merge branch 'master' of https://github.com/vistalab/vistasoft
 /N/u/brlife/git/jsonlab
@@ -15,14 +15,14 @@ Date:   Wed Sep 6 13:01:57 2017 -0400
     
     added package.json to be able to intall via npm package manager
 /N/u/brlife/git/wma_tools
-commit c31b6c4595e3493dcf12464909e0c9070c776066
+commit e593fb9f0dd418bc82ef61ad7d1b7b8abca885ee
 Author: Daniel Bullock <dnbulloc@iu.edu>
-Date:   Fri Jul 26 14:58:09 2019 -0400
+Date:   Wed Apr 22 19:58:49 2020 -0400
 
-    reworked bl segmentation code to use improved roi generation function
+    did groundwork for arcuate
 /N/u/brlife/git/encode
-commit 538a73bc4f8b4d94545bc2dfe434fec55e0c7a95
-Author: Soichi Hayashi <hayashis@iu.edu>
-Date:   Tue Jan 22 10:14:41 2019 -0500
+commit 034825b0c304679d36c41906dfb4c9850cb64eae
+Author: francopestilli <frakkopesto@gmail.com>
+Date:   Sun Mar 1 15:25:30 2020 -0500
 
-    fixed the issue where fiber goes missing.
+    BUG: Fixed a size error in one of the calls. This was the result of the previous commit.

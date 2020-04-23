@@ -6,7 +6,7 @@
 set -e
 
 echo "running bsc_SegROIfromPairStringList_BL"
-time singularity exec -e docker://brainlife/mcr:neurodebian1604-r2017a ./compiled/bsc_SegROIfromPairStringList_v2_BL
+time singularity exec -e docker://brainlife/mcr:neurodebian1604-r2017a ./compiled/bsc_SegROIfromPairStringList_v3_BL
 
 echo "generating tracts/"
 #TODO for Dan
